@@ -1,0 +1,86 @@
+img {
+    border-radius: 50%;
+    width: 14rem;
+    height: 14rem;
+    object-fit: cover;
+}
+
+.jumbotron {
+    display: flex;
+    background-color: rgb(73, 73, 73);
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 22rem;
+    border-radius: 12px;
+}
+
+.title {
+    padding: 16px;
+    border-radius: 12px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(135, 66, 201);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.row {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row > div {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 28px;
+    width: 40%;
+}
+
+.row > div > ul{
+    /* margin: 0px; */
+    margin-left: -40px;
+}
+
+.row > div > ul > li {
+    padding: 8px;
+    margin: 0px;
+    list-style-type: none;;
+}
+
+.row > div > ul > li > hr {
+    margin-top: 16px;
+}
+
+.row-findme {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title-findme {
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: 10px;
+}
+
+.row-findme > div {
+    margin: 14px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.row-findme > div > a > img {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+}
